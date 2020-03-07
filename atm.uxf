@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>170</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;ATM&gt;&gt;
+--
++account 
++name = string
++pin  = int
++amount = float
++status = string
++balance = float
+--
+-login()
+-logout()
+-getBalance()
+-deposit()
+-withdraw()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
